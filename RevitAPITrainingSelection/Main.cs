@@ -25,7 +25,7 @@ namespace RevitAPITrainingSelection
                  .Cast<Duct>()
                  .ToList();
 
-            TaskDialog.Show("Doors count", fDucts.Count.ToString());
+            TaskDialog.Show("Duct count", fDucts.Count.ToString());
 
             return Result.Succeeded;
 
